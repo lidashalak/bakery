@@ -1,0 +1,87 @@
+<html lang="ru">
+<head>
+	<title>Basilika Bakery</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lora:700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="bigcontent">
+<nav class="navbar-collapse bs-navbar-collapse" role="navigation">
+	<ul class="nav row text-center">
+		<li class="col-md-3"><a href="#">Главная</a></li>
+		<li class="col-md-3"><a href="#nejniy">Меню</a></li>
+		<li class="col-md-3"><a href="#">Рецепты</a></li>
+		<li class="col-md-3"><a href="#">Заказать</a></li>
+	</ul>
+</nav>
+<div class="wide_block pirogi">
+	<div class="container">
+		<img class="logo" src="logo.png" />
+	</div>
+</div>
+
+<div class="container bs-docs-container">
+	<div class="row">
+		<div id="sdfg" class="col-md-9" role="main">
+			<p>dsgdgdfhgdfhfdh dh dfhdfh</p>
+			<p>dsgdgdfhgdfhfdh dh dfhdfh</p>
+			<p>dsgdgdfhgdfhfdh dh dfhdfh</p>
+			<p>dsgdgdfhgdfhfdh dh dfhdfh</p>
+			<p>dsgdgdfhgdfhfdh dh dfhdfh</p>
+			<p>dsgdgdfhgdfhfdh dh dfhdfh</p>
+		</div>
+		<div class="col-md-3">
+			<div class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" role="complementary">
+				<ul class="nav bs-docs-sidenav">
+					<li><a href="#wells">Wells</a></li>
+					<li><a href="#wells">Wells</a></li>
+					<li><a href="#wells">Wells</a></li>
+					<li><a href="#wells">Wells</a></li>
+				</ul>
+				<a class="back-to-top" href="#top">
+				  Back to top
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+	<div class="footer">
+	   <div class="container1">
+	   
+		<div class="row">
+			<div class="col-md-2">Где нас найти:</div>
+			<div class="col-md-5">М.Добрынинская Ул.Пятницкая 30 <br>Тел. 8-903-563-30-61</div> 
+			<div class="col-md-5">Режим работы: 10<sup>00</sup>-22<sup>00</sup></div>
+			
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 goodbuy"> Ждем сладкой встречи!</div>
+				<div class="col-md-6 bottom">&copy; Basilika Bakery. Все права защищены.</div>
+			</div>
+       </div>
+	</div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+<script>
+var x = jQuery(window).height();
+var y = jQuery('.bigcontent').height();
+var z = jQuery('.footer').height();
+alert(x+'+'+y+'+'+z+'='+(x-y-z));
+if(x > y + z + 100 )
+{
+	jQuery('.footer').css({position: 'absolute',top: (x - z), width: '100%' });
+}
+
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

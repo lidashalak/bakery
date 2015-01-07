@@ -1,0 +1,346 @@
+body {
+font-family: 'Roboto Slab', serif;
+}
+h2 {
+text-align: center;
+font-family: 'Roboto Slab', serif;
+font-size: 54px;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+h3{
+font-size: 20px;
+margin-bottom: 30px;
+font-weight: 700;
+}
+p{
+	font-size: 20px;
+}
+.lid{
+	text-align: center;
+}
+
+.map {
+	width:100%;
+	height: 500px;
+	background: rgba(255,255,255,.5);
+	text-align: center;
+}
+.info {
+font-family: 'Lora', serif;
+font-weight: 700;
+font-style: italic;
+}
+.navbar-collapse {
+position: relative;
+text-transform: uppercase;
+font-size: 13px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+
+}
+
+
+.pirogi {
+	background: #6b5241 url(pirogi.jpg) 0 27% / 100% auto no-repeat;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.logo {
+	height: 230px;
+}
+.container1{
+text-align: center;
+font-family: 'Roboto Slab', serif;
+font-size: 20px;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+.wood{
+padding-left: 71px;
+text-align: left;
+margin-top: 100px;
+color: white;
+font-size: 55px;
+font-family: 'Lora', serif;
+font-weight: 700;
+}
+.img {
+	width: 130px;
+	height: 130px;
+	background:#ccc;
+	clear:both;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.carousel ul {
+text-align: left;
+width: 57%;
+}
+
+.carousel-control.left, .carousel-control.right{
+background-image: none;
+}
+.carousel-control{
+color:#000;
+text-shadow:none;
+}
+.carousel-control:hover, .carousel-control:focus{
+color: #000;
+}
+.carousel-inner {
+position: relative;
+bottom: -42px;
+width: 100%;
+overflow: hidden;
+min-height: 565px;
+}
+
+.carousel-caption{
+text-align: left;
+left: 45%;
+bottom:0%;
+color:#000;
+text-shadow:none;
+padding-bottom: 0px;
+}
+.item{
+	left: 10% !important;
+}
+
+.footer .container {
+
+font-family: 'Roboto Slab', serif;
+font-size: 21px;
+margin-bottom: 50px;
+color:white;
+
+}
+.goodbuy, .bottom {text-align: center;}
+.goodbuy{
+	padding:30px;
+}
+
+/*
+h2{
+text-align: center;
+text-transform: uppercase;
+font-size: 46px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+p{
+max-width: 960px;
+margin: 0 auto 20px auto;
+font-size: 20px;
+}
+.recept{
+font-weight: 700;
+}
+.info{
+font-family: 'Lora', serif;
+font-weight: 700;
+font-style: italic;
+
+}
+.main {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto 20px auto;
+}
+.main:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.twins {
+}
+.twins > div {
+	width: 49%;
+	margin-right: 2%;
+	float: left;
+	height: 293px;
+}
+.twins .block_1, .twins .block_2 {
+	height: auto;
+}
+.twins .block_1 {
+	width: 51%;
+}
+.twins .block_2 {
+width: 41%;
+font-size: 18pt;
+}
+.twins > div p {
+	padding: 0 10px;
+}
+.twins div:last-child {
+	margin-right: 0;
+}/*
+img {
+	max-width: 100%;
+}
+
+.adf {width: 300px;margin: 0 auto;}
+
+
+.item p span {
+	display: block;
+	color: #ccc;
+}
+
+
+.item .row {display: table;}
+.item .row > div {display: table-cell;float: none;vertical-align: middle;}
+.item .row > div:nth-child(3), .item .row > div:nth-child(4) {border-left: 1px solid #ccc;}
+
+@media (max-width: 728px) {
+	.twins .block_1, .twins .block_2 {
+		float: none;
+		width: 100%;
+		margin-right: 0;
+	}
+	.twins > div img {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+/*div .cupcake {
+	width: 49%;
+	margin-right: 2%;
+	
+	
+	float: left;
+}
+
+div .muffin {
+	width:49%;
+	height: 355px;
+	margin-bottom: 22px;
+	
+	float: right;
+}
+
+div .waffle, div .tart {
+	width:22%;
+	
+	
+}
+
+div .waffle {
+	margin-right: 1%;
+	
+	float:left;
+}
+
+div .tart {
+	
+	float:right;
+}
+
+
+/*
+.row .menu .col-md-3{
+margin-bottom: 15px;
+}
+
+*/
+
+.nav>li>a {
+	color: #000;
+	font-weight: 700;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+	color: #000;
+	background-color: transparent;
+	position: relative;
+}
+.nav>li>a:hover:after, .nav>li>a:focus:after {
+	border-bottom: 3px solid #000;
+	position: absolute;
+	content: '';
+	display: block;
+	bottom: 7px;
+	width: 50px;
+	left: 50%;
+	margin-left: -25px;
+}
+
+nav.navbar-collapse {
+	/* background-color: rgba(96,57,19,.3); */
+}
+
+.container1 {
+
+margin: 15px auto;
+font-family: 'Roboto Slab', serif;
+font-size: 21px;
+margin-bottom: 50px;
+color:white;
+}
+.row{
+margin-right: 0;
+}
+.goodbuy{
+
+color: #e3a172;
+}
+.bottom{
+font-size: 12px;
+
+}
+.footer{
+background: #6b5241 url(footerbg.jpg) 0 80% / 100% auto no-repeat;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+
+.container1{
+text-align: center;
+
+}
+
+
+
+
+/*@media (max-width: 1330px) {
+		.pics > div {
+		float: none;
+		width: 100%;
+		margin-bottom: 15px;
+
+	}
+
+	.menu_block {
+margin-left: 130px;
+}
+
+	.waffle {
+		float:left !important;
+		width: 49% !important;
+		margin-right: 2%;
+	}
+
+	.tart {
+		float:right !important;
+		width:49% !important;
+	}
+
+}
+
+@media (max-width: 720px) {
+	.waffle, .tart {
+		float:none !important;
+		
+	}
+   }
+   */
+@media (max-width: 1100px) {
+.pics{
+	padding: 0;
+}
+	}

@@ -1,0 +1,210 @@
+<html lang="ru">
+<head>
+	<title>Basilika Bakery</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="dist/css/bootstrap-theme.min.css">
+	
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lora:700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="all" href="style3.css" />
+	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+</head>
+
+	
+<body>
+
+<nav class="navbar-collapse bs-navbar-collapse" role="navigation">
+	<ul class="nav row text-center">
+		<li class="col-md-3"><a href="index.html">Главная</a></li>
+		<li class="col-md-3"><a href="menu.html">Меню</a></li>
+		<li class="col-md-3"><a href="recipy.html">Рецепты</a></li>
+		<li class="col-md-3"><a href="order.html">Заказать</a></li>
+	</ul>
+</nav>
+<div class="wide_block pirogi">
+	<div class="container1">
+		<img class="logo" src="logo.png" />
+	</div>
+</div>
+
+<h2>Как сделать заказ</h2>
+<p class="lid">Вам понравилось и вы хотите попробовать? —
+Для этого заполните форму обратной связи и мы обязательно вам ответим.</p>
+<div class="forma">	
+	
+	<strong> Что вы хотите заказать:</strong> 
+	<form action="thx4order.html" method="post" name="formorder">
+
+<div class="row">
+	
+<div class="formm"><select class="dependent form-control" name="products">
+     <optgroup label="капкейки">
+        <option>Сырный крем</option>
+        <option>Ягодная Роза</option>
+        <option>Красный бархат</option>
+		<option>Шоколадная лазурь</option>
+		<option>Брызги шоколада</option>
+		<option>Сливочный арахис</option>
+		<option>Плезантвилль</option>
+		
+    </optgroup>
+	
+    <optgroup label="маффины">
+    	<option>Брауни</option>
+        <option>Сладкая ягода</option>
+        <option>Лесная мечта</option>
+		<option>Пекан</option>
+        <option>Сочетание</option>
+        </div>
+    </optgroup>
+     
+     <optgroup label="вафли">   
+        <option>Медовая клубника</option>
+        <option>Классический десерт</option>
+        <option>Карамельная малина</option>
+        </div>
+    </optgroup>
+	
+	<optgroup label="тарты">		
+        <option>Ягодный микс</option>
+        <option>Сливочная малина</option>
+        <option>Сливочная клубника</option>
+     
+    </optgroup>
+</select></div>
+</div>
+	
+	
+	<!--
+	<div class="row">
+	<div class="col-md-6">
+	
+	<select class="form-control">
+  <option>капкейки</option>
+  <option>маффины</option>
+  <option>вафли</option>
+  <option>тарты</option>
+  	</select>
+  	</div>
+  	<div class="col-md-6">
+  	
+	<select class="form-control">
+  <option>Сырный крем</option>
+  <option>Ягодная Роза</option>
+  <option>Красный бархат</option>
+  <option>Шоколадная лазурь</option>
+  <option>Брызги шоколада</option>
+  <option>>Сливочный арахис</option>
+  <option>Плезантвилль</option>
+  	</select>
+  	</div>
+</div>
+	-->
+<div>
+		<strong>Введите ваши данные для связи:</strong>
+			 <div class="row">
+			 <div class="col-md-4">
+ 				<div class="form-group">
+			  	
+			    <label for="exampleInputEmail1">Ваше имя</label>
+			    <input type="name" class="form-control" id="exampleInputName" placeholder="Мария">
+			  </div>
+			  </div>
+			  <div class="col-md-4">
+			  <div class="form-group">
+			    <label for="exampleInputPassword1">E-mail</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-mail">
+			  </div>
+			  </div>
+			  <div class="col-md-4">
+			  <div class="form-group">
+			    <label for="exampleInputPassword1">Телефон</label>
+			    <input type="phone" class="form-control" id="exampleInputPhone" placeholder="8-911-11-11">
+			  </div>
+			  </div>
+			  </div>
+</div>
+
+<div>
+<strong>Выберите способ доставки:</strong>
+<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Доставка
+</label>
+<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Самовывоз
+</label>
+</div>
+	
+<div>
+<textarea class="form-control" rows="5" placeholder="Введите адрес доставки"></textarea>
+</div>
+
+
+
+
+	<div class="checkbox">
+			    <label>
+			      <input type="checkbox"> Я хочу получать письма об акциях и новинках 
+			    </label>
+	</div> 
+
+<p><button type="submit" class="btn btn-default">Отправить</button></p>
+</form>
+</div>
+
+
+	<div class="footer">
+	   <div class="container">
+	   
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-2">Где нас найти:  </div>
+				<div class="col-md-3">М.Добрынинская Ул.Валовая 30</div>
+				<div class="col-md-3">Режим работы: 10<sup>00</sup>-22<sup>00</sup> Тел. 8-903-563-30-61</div>
+				<div class="col-md-2"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 goodbuy">Ждем сладкой встречи!</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 bottom">&copy; Basilika Bakery. Все права защищены.</div>
+			</div>
+		</div>
+</div>
+<script>
+$(function () {
+    $("select.dependent.form-control").each(function (i, sel) {
+        var original = $(this).clone(),
+            dependent = $("<select></select>").attr({
+                name: this.name,
+              class: "form-control",
+
+                
+            }).insertAfter(this)
+
+            this.name = "categories_" + this.name
+            
+       
+
+            $("optgroup", this).replaceWith(function () {
+                return "<option>" + this.label + "</option>"
+                
+            })
+            $("option:first",this).prop("selected",true)
+            $(this).removeAttr("multiple").on("change", function () {
+                var cat = $(this).val()
+                dependent.html(original.children("[label='" + cat + "']").html())
+            }).change()
+            console.log(this)
+    })
+})
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>

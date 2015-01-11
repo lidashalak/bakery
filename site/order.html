@@ -9,7 +9,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Lora:700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" media="all" href="style3.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="style.css" />
 	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
 </head>
 
@@ -35,10 +35,10 @@
 Для этого заполните форму обратной связи и мы обязательно вам ответим.</p>
 <div class="forma">	
 	
-	<strong> Что вы хотите заказать:</strong> 
+	<p class="formorder"> Что вы хотите заказать:</p> 
 	<form action="thx4order.html" method="post" name="formorder">
 
-<div class="row">
+<div class="row form">
 	
 <div class="formm"><select class="dependent form-control" name="products">
      <optgroup label="капкейки">
@@ -78,58 +78,34 @@
 </div>
 	
 	
-	<!--
-	<div class="row">
-	<div class="col-md-6">
 	
-	<select class="form-control">
-  <option>капкейки</option>
-  <option>маффины</option>
-  <option>вафли</option>
-  <option>тарты</option>
-  	</select>
-  	</div>
-  	<div class="col-md-6">
-  	
-	<select class="form-control">
-  <option>Сырный крем</option>
-  <option>Ягодная Роза</option>
-  <option>Красный бархат</option>
-  <option>Шоколадная лазурь</option>
-  <option>Брызги шоколада</option>
-  <option>>Сливочный арахис</option>
-  <option>Плезантвилль</option>
-  	</select>
-  	</div>
-</div>
-	-->
 <div>
-		<strong>Введите ваши данные для связи:</strong>
+		<p class="formorder">Введите ваши данные для связи:</p>
 			 <div class="row">
 			 <div class="col-md-4">
  				<div class="form-group">
 			  	
-			    <label for="exampleInputEmail1">Ваше имя</label>
-			    <input type="name" class="form-control" id="exampleInputName" placeholder="Мария">
+			    
+			    <input type="name" class="form-control" id="exampleInputName" placeholder="Ваше имя">
 			  </div>
 			  </div>
 			  <div class="col-md-4">
 			  <div class="form-group">
-			    <label for="exampleInputPassword1">E-mail</label>
+			    
 			    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-mail">
 			  </div>
 			  </div>
 			  <div class="col-md-4">
 			  <div class="form-group">
-			    <label for="exampleInputPassword1">Телефон</label>
-			    <input type="phone" class="form-control" id="exampleInputPhone" placeholder="8-911-11-11">
+			    
+			    <input type="phone" class="form-control" id="exampleInputPhone" placeholder="Телефон">
 			  </div>
 			  </div>
 			  </div>
 </div>
 
 <div>
-<strong>Выберите способ доставки:</strong>
+<p class="formorder">Выберите способ доставки:</p>
 <label class="radio-inline">
   <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Доставка
 </label>
@@ -138,9 +114,12 @@
 </label>
 </div>
 	
-<div>
+
+<div class="adresstext">
 <textarea class="form-control" rows="5" placeholder="Введите адрес доставки"></textarea>
 </div>
+<p>Вы всегда можете навестить нас и забрать свой заказ по адресу: М.Дорынинская/Серпуховская ул.Валовая 30</p>
+<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2246.6250685589393!2d37.626517500000006!3d55.73026769999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b1b0bdfeeb9%3A0x95735d6b710c31d1!2z0JLQsNC70L7QstCw0Y8g0YPQuy4sIDMwLCDQnNC-0YHQutCy0LAsIDExNTA1NA!5e0!3m2!1sru!2sru!4v1418896198370" width="910" height="400" frameborder="0" style="border:0"></iframe></div>
 
 
 
